@@ -53,7 +53,7 @@ export default function HomePage() {
         <div className="flex items-center justify-between">
           <h2 className="text-lg font-semibold">Tools I&apos;ve built</h2>
           <a href="/tools" className="text-xs text-neutral-400 hover:underline">
-            See all tools {previewTools.length}
+            See all tools {previewTools.length}.
           </a>
         </div>
 
