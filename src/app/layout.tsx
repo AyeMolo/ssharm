@@ -33,7 +33,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
           {/* Footer */}
           <footer className="mt-8 pt-4 border-t border-neutral-800 text-xs text-neutral-400">
-            Built by Suraaj • {new Date().getFullYear()}
+            Built by SuraajN • {new Date().getFullYear()}
           </footer>
         </div>
       </body>
