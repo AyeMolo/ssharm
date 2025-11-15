@@ -21,7 +21,7 @@ async function SiteHeader() {
             ssharm
           </Link>
           <span className="text-xs text-neutral-500 border border-neutral-700 px-2 py-0.5 rounded-full">
-            beta
+            sigma
           </span>
         </div>
 
@@ -93,7 +93,9 @@ export default async function RootLayout({ children }: RootLayoutProps) {
     <html lang="en" className="bg-black text-neutral-100">
       <body className="min-h-screen bg-gradient-to-b from-black via-neutral-950 to-black">
         <SiteHeader />
-        <main className="max-w-4xl mx-auto px-4 py-6">{children}</main>
+        <main className="w-full max-w-6xl mx-auto px-4 lg:px-10 py-8">
+          {children}
+        </main>
       </body>
     </html>
   );
