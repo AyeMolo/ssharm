@@ -40,7 +40,7 @@ export default function HomePage() {
         <h2 className="text-lg font-semibold">About me</h2>
         <div className="bg-neutral-900 border border-neutral-800 rounded-lg p-4 text-sm text-neutral-300">
           <p>
-            They call me Sigma.
+          I’m a motivated computer science student at George Mason University who enjoys building real projects and improving my skills every day. I work on everything from websites and backend systems to engineering labs and coding assignments, and I always try to understand things clearly and fully. I’m focused, detail-oriented, and always looking for ways to grow—whether it’s through school, personal projects, or career opportunities. Outside of class, I love cars, making content, and creating tools that help people. I take pride in staying consistent, working hard, and constantly pushing myself to reach bigger goals.
           </p>
           <p className="text-xs text-neutral-500 mt-2">
             (For now this is just placeholder)

@@ -30,6 +30,8 @@ export default function ToolsPage() {
           </div>
         )}
       </section>
+
+      
     </div>
   );
 }

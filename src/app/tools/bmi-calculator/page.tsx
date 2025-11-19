@@ -3,10 +3,7 @@
 
 import { useState } from "react";
 
-// BMI Calculator tool page.
-// URL: /tools/bmi-calculator
 export default function BmiCalculatorPage() {
-  // State for the height and weight inputs.
   const [heightCm, setHeightCm] = useState(""); // height in centimeters
   const [weightKg, setWeightKg] = useState(""); // weight in kilograms
 
