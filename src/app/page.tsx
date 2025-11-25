@@ -6,7 +6,7 @@ import ToolCard from "@/components/ToolCard";
 // Home page: about you + preview of my tools.
 export default function HomePage() {
   // Show at most 2 tools on the home page as a preview.
-  const previewTools = tools.slice(0, 4);
+  const previewTools = tools.slice(0, 1);
 
   return (
     <div className="space-y-10">
